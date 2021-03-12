@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR система</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="table">
+        <tr>
+            <th>ФИО</th>
+            <th>Статус</th>
+        </tr>
+        <tr>
+            <td><a href="#petya">Петя</a></td>
+            <td>Принят оффер</td>
+        </tr>
+        <tr>
+            <td><a href="#masha">Маша</a></td>
+            <td>Заказано собеседование</td>
+        </tr>
+    </table>
+
+    <div class="card">
+        <h3><a name="petya"></a>Петя</h3>
+        <p>Классный специалист, который <b>уже работал в нашей компании</b>, с огромным пластом компетенций</p>
+        <ul>
+            <li>Умеет паять</li>
+            <li>Знает HTML</li>
+            <li>Вёл бизнес-тренинги</li>
+            <li>Просто душка</li>
+        </ul>
+        <img src="assets/petya.jpeg" alt="">
+    </div>
+    <div class="card">
+        <h3><a name="masha"></a>Маша</h3>
+        <p>Бурерождённая <b>разрушительница оков</b>, а так же</p>
+        <ul>
+            <li>Кхалиси великого травяного моря</li>
+            <li>Матерь драконов</li>
+            <li>Законная королева андалов</li>
+        </ul>
+        <img src="assets/masha.jpeg" alt="">
+    </div>
+
+    <div class="form">
+        <h3>Новый кандидат</h3>
+        <input type="text" placeholder="Имя">
+        <textarea placeholder="описание"></textarea> 
+        <button>Сохранить</button>
+    </div>
+</body>
+
+</html>
